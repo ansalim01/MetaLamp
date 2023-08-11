@@ -11,8 +11,7 @@
     "build-dev": "set NODE_ENV=development&&webpack",
     "build-prod": "set NODE_ENV=production&&webpack",
     "clear": "rd /s /q dist",
-    "build": "webpack --mode=development",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build-prod",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
