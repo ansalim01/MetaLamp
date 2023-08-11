@@ -1,0 +1,22 @@
+.text-field {
+    &__input {
+        border: 1px solid $--dark-25;
+        padding: 13px 15px;
+        border-radius: 4px;
+        color: $--dark-75;
+        line-height: 24px;
+        /* 171.429% */
+
+        &::placeholder {
+            color: $--dark-25;
+            line-height: 18px;
+            /* 128.571% */
+        }
+
+        &:focus,
+        &:hover {
+            border: 1px solid $--dark-50;
+
+        }
+    }
+}
